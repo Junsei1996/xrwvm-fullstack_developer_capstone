@@ -155,4 +155,3 @@ def get_cars(request):
         })
 
     return JsonResponse({"CarModels": cars})
-    
